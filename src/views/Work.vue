@@ -1,20 +1,24 @@
 <template>
-  <div class="home">
-    <Navbar/>
+  <div class="work">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import Navbar from '@/components/structure/Navbar.vue'
 
 export default {
-  name: 'Home',
+  name: 'Work',
   components: {
-    HelloWorld,
-    Navbar
+    HelloWorld
   }
 }
 </script>
+
+<style scoped>
+.work {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+</style>
