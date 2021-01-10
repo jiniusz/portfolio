@@ -1,7 +1,8 @@
 <template>
 <nav class="z-depth-0 navbar">
     <div class="nav-wrapper white">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons grey-text text-darken-1">menu</i></a>
+        <a class="brand-logo grey-text text-darken-1 center">Jiniusz</a>
+        <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons grey-text text-darken-1">menu</i></a>
         <ul class="menu left hide-on-med-and-down">
             <li><a class="active" href="#">Work</a></li>
             <li><a href="#about">Interest</a></li>
@@ -44,7 +45,7 @@ export default {
         margin-top: 85px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .navbar{
         margin-top: 0px;
     }
@@ -62,7 +63,7 @@ export default {
 }
 
 .navbar .nav-wrapper ul.menu li a{
-    color: #e53935;
+    color: #757575;
 }
 
 .navbar .nav-wrapper ul li.menu-active a {

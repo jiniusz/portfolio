@@ -23,12 +23,11 @@ export default {
 .page-footer {
   width: 100%;
   height: 60px;
-  position: absolute;
   bottom: 0;
   left: 0;
 }
 .page-footer .container a{
-    margin-right: 10px;
-    color: #e53935;
+  margin-right: 10px;
+  color: #757575;
 }
 </style>
