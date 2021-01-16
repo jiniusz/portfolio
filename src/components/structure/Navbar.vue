@@ -5,16 +5,16 @@
         <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons grey-text text-darken-1">menu</i></a>
         <ul class="menu left hide-on-med-and-down">
             <li><a class="active" href="#">Work</a></li>
-            <li><a href="#about">Interest</a></li>
-            <li><a href="#contract">Who am i</a></li>
+            <li><a href="#interest">Interest</a></li>
+            <li><a href="#who-am-i">Who am i</a></li>
         </ul>
     </div>
 </nav>
 
 <ul class="sidenav" id="mobile-demo">
     <li><a class="active" href="#">Work</a></li>
-    <li><a href="#about">Interest</a></li>
-    <li><a href="#contract">Who am i</a></li>
+    <li><a href="#interest">Interest</a></li>
+    <li><a href="#who-am-i">Who am i</a></li>
 </ul>
 </template>
 

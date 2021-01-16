@@ -2,10 +2,8 @@
   <div class="work">
     <div class="container">
       <div class="row workcategories">
-        <div class="col s12 m4 l6"><WorkCategories/></div>
-        <div class="col s12 m4 l6"><WorkCategories/></div>
-        <div class="col s12 m4 l6"><WorkCategories/></div>
-        <div class="col s12 m4 l6"><WorkCategories/></div>
+        <div class="col s12 m4 l4"><WorkCategories name="Business" details="กิจกรรมยามว่างและไม่ว่าง ขับเคลื่อนชีวิตให้ไปต่อ"/></div>
+        <div class="col s12 m4 l4"><WorkCategories name="Coding" details="ไม่อยากทำเป็นส่วนมาก แต่สลัดทิ้งไม่เคยได้"/></div>
       </div>
     </div>
   </div>
@@ -30,13 +28,6 @@ export default {
     }
 }
 
-@media screen and (max-width: 970px){
-    .work .workcategories{
-      margin-top: 100px;
-      margin-bottom: 100px;
-    }
-}
-
 @media screen and (max-width: 600px){
     .work .workcategories{
       margin-top: 100px;
@@ -51,6 +42,4 @@ export default {
   padding: 0;
   height: 100%;
 }
-
-
 </style>

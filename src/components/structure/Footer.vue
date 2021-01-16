@@ -11,11 +11,11 @@
 <script>
 export default {
     name: 'Footer',
-    data(){
-        return{
+    data() {
+      return{
 
-        }
-    },
+      }
+    }
 }
 </script>
 
@@ -25,6 +25,7 @@ export default {
   height: 60px;
   bottom: 0;
   left: 0;
+  position: relative;
 }
 .page-footer .container a{
   margin-right: 10px;

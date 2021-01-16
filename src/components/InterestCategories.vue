@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'WorkCategories',
+  name: 'InterestCategories',
   props: {
     name: String,
     details: String
