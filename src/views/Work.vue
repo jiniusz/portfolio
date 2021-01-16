@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row workcategories">
         <div class="col s12 m4 l4"><WorkCategories name="Business" details="กิจกรรมยามว่างและไม่ว่าง ขับเคลื่อนชีวิตให้ไปต่อ" slug="#/business-gallery"/></div>
-        <div class="col s12 m4 l4"><WorkCategories name="Coding" details="ไม่อยากทำเป็นส่วนมาก แต่สลัดทิ้งไม่เคยได้"/></div>
+        <div class="col s12 m4 l4"><WorkCategories name="Coding" details="ไม่อยากทำเป็นส่วนมาก แต่สลัดทิ้งไม่เคยได้" slug="#/coding-gallery"/></div>
       </div>
     </div>
   </div>

@@ -24,6 +24,46 @@ const routes = [
     path: '/business-gallery',
     name: 'Business',
     component: () => import('../components/gallery/Business.vue')
+  },
+  {
+    path: '/coding-gallery',
+    name: 'Coding',
+    component: () => import('../components/gallery/Coding.vue')
+  },
+  {
+    path: '/psychology-gallery',
+    name: 'Psychology',
+    component: () => import('../components/gallery/Psychology.vue')
+  },
+  {
+    path: '/game-design-gallery',
+    name: 'GameDesign',
+    component: () => import('../components/gallery/GameDesign.vue')
+  },
+  {
+    path: '/game-esport-gallery',
+    name: 'GameEsport',
+    component: () => import('../components/gallery/GameEsport.vue')
+  },
+  {
+    path: '/graphic-design-gallery',
+    name: 'GraphicDesign',
+    component: () => import('../components/gallery/GraphicDesign.vue')
+  },
+  {
+    path: '/writing-gallery',
+    name: 'Writing',
+    component: () => import('../components/gallery/Writing.vue')
+  },
+  {
+    path: '/music-gallery',
+    name: 'Music',
+    component: () => import('../components/gallery/Music.vue')
+  },
+  {
+    path: '/data-science-gallery',
+    name: 'Writing',
+    component: () => import('../components/gallery/DataScience.vue')
   }
 ]
 

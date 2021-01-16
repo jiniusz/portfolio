@@ -2,12 +2,13 @@
   <div class="interest">
     <div class="container">
       <div class="row workcategories">
-      <div class="col s12 m4 l4"><InterestCategories name="Psychology" details="พระอาทิตย์ ดาวเหนือ เข็มทิศนำทางชีวิต"/></div>
-      <div class="col s12 m4 l4"><InterestCategories name="Game Design" details="การผจญภัยที่น่าตื่นเต้นอยู่เสมอ"/></div>
-      <div class="col s12 m4 l4"><InterestCategories name="Graphic Design" details="ขาดไม่ได้ ทำให้ทุกอย่างดูดีขึ้น"/></div>
-      <div class="col s12 m4 l4"><InterestCategories name="Writing" details="รักการอ่านมาก เลยอยากคืนกำไรสู่สังคมบ้าง"/></div>
-      <div class="col s12 m4 l4"><InterestCategories name="Data Science" details="พ่อหมอ Jiniusz โหราศาสตร์ 2021"/></div>
-      <div class="col s12 m4 l4"><InterestCategories name="Music" details="เพื่อนในทุกจังหวะของชีวิต"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Psychology" details="พระอาทิตย์ ดาวเหนือ เข็มทิศนำทางชีวิต" slug="#/psychology-gallery"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Game Design" details="ทุกเหตุการณ์ การกระทำ มีเหตุผลเสมอ" slug="#/game-design-gallery"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Game E-Sport" details="การผจญภัยที่น่าตื่นเต้นอยู่เสมอ" slug="#/game-esport-gallery"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Graphic Design" details="ขาดไม่ได้ ทำให้ทุกอย่างดูดีขึ้น" slug="#/graphic-design-gallery"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Writing" details="รักการอ่านมาก เลยอยากคืนกำไรสู่สังคมบ้าง" slug="#/writing-gallery"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Music" details="เพื่อนในทุกจังหวะของชีวิต" slug="#/music-gallery"/></div>
+      <div class="col s12 m4 l4"><InterestCategories name="Data Science" details="พ่อหมอ Jiniusz โหราศาสตร์ 2021" slug="#/data-science-gallery"/></div>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div class="container">
-      <div class="row business-content">
+      <div class="row gallery-content">
 
         <div class="col s12 m6 l12">
           <div class="card white">
@@ -92,7 +92,7 @@
         <div class="col s12 m6 l12">
           <div class="card white">
             <div class="card-content">
-              <span class="card-title grey-text text-darken-3">ผลงานชิ้นที่ 7 : เล่นพนันกีฬาฟุตบอล และ บาสเก็ตบอล</span>
+              <span class="card-title grey-text text-darken-3">ผลงานชิ้นที่ 7 : ลงทุนในกีฬาฟุตบอล และ บาสเก็ตบอล</span>
               <p class="grey-text text-darken-1">• ตอนแรกคิดว่าจะไม่เขียนลงไป แต่ทักษะ และ ประสบการณ์จากตรงนั้น ก็หล่อหลอมให้เป็นผมในทุกวันนี้</p>
               <p class="grey-text text-darken-1">• หลังจากเลิกทำเซิฟเวอร์ Minecraft ก็ว่างๆ</p>
               <p class="grey-text text-darken-1">• สมัยมัธยมเป็นคนชอบกีฬาพวกนี้มาก จู่ๆเห็นโฆษณาขึ้นมาหน้า Facebook เลยกดเข้าไปดู</p>
@@ -102,7 +102,7 @@
               <p class="grey-text text-darken-1">• สุดท้ายใจร้อนเล่นทีเดียวหมดหน้าตัก แล้วพลาดเงินหมด</p>
               <p class="grey-text text-darken-1">• วนลูปซ้ำแบบนี้ประมาณ 3-4 ครั้ง</p>
               <p class="grey-text text-darken-1">• จนสุดท้ายตัดสินใจเลิกเล่น เพราะทุกอย่างมันเร็วควบคุมอารมณ์ได้ยาก และใช้เวลานานในการวิเคราะห์ ขาดทุนไปราวๆ 20,000 - 30,000 บาท</p>
-              <p class="grey-text text-darken-1">• ผลงานโบว์แดงคือการเริ่มเล่นจาก 1,000 บาท จนเงินโตไปถึง 78,000 บาท</p>
+              <p class="grey-text text-darken-1">• ผลงานโบว์แดงคือการเริ่มจากเงิน 1,000 บาท จนเงินโตไปถึง 78,000 บาท</p>
             </div>
           </div>
         </div>
@@ -150,21 +150,21 @@
 <script>
 
 export default {
-  name: 'Work',
+  name: 'Business',
 }
 </script>
 
 
 <style scoped>
 @media screen and (max-width: 4416px){
-    .gallery .business-content{
+    .gallery .gallery-content{
       margin-top: 100px;
       margin-bottom: 100px;
     }
 }
 
 @media screen and (max-width: 600px){
-    .gallery .business-content{
+    .gallery .gallery-content{
       margin-top: 100px;
       margin-bottom: 100px;
       display: flex;
