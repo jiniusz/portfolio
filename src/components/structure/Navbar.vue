@@ -1,7 +1,7 @@
 <template>
 <nav class="z-depth-0 navbar">
     <div class="nav-wrapper white">
-        <a class="brand-logo grey-text text-darken-1 center">Jiniusz</a>
+        <a class="brand-logo grey-text text-darken-3 center">Jiniusz</a>
         <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons grey-text text-darken-1">menu</i></a>
         <ul class="menu left hide-on-med-and-down">
             <li><a class="active" href="#">Work</a></li>

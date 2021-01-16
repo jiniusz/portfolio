@@ -1,12 +1,14 @@
 <template>
   <div class="row">
     <div class="col s12 m6 l12">
+      <a :href="slug">
       <div class="card white">
         <div class="card-content">
-          <span class="card-title grey-text text-darken-4">{{ name }}</span>
+          <span class="card-title grey-text text-darken-3">{{ name }}</span>
           <p class="grey-text">{{ details }}</p>
         </div>
       </div>
+      </a>
     </div>
   </div>
 </template>
@@ -16,7 +18,8 @@ export default {
   name: 'WorkCategories',
   props: {
     name: String,
-    details: String
+    details: String,
+    slug: String
   }
 }
 </script>
