@@ -62,9 +62,9 @@ const routes = [
   },
   {
     path: '/data-science-gallery',
-    name: 'Writing',
+    name: 'DataScience',
     component: () => import('../components/gallery/DataScience.vue')
-  }
+  },
 ]
 
 const router = createRouter({
